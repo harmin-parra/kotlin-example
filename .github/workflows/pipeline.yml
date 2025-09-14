@@ -22,7 +22,7 @@ jobs:
             ~/.gradle/wrapper
           key: gradle-cache-${{ runner.os }}-v1
           restore-keys: |
-            gradle-cache-${{ runner.os }}-
+            gradle-cache-v1
 
       - name: Build
         run: ./gradlew clean build --no-daemon --stacktrace -x test
