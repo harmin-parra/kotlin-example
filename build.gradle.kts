@@ -25,8 +25,8 @@ dependencies {
     testImplementation(kotlin("test"))
 
     // Mocking libraries
-    testImplementation("io.mockk:mockk:1.13.9")            // Kotlin mocks
-    testImplementation("org.mockito:mockito-core:5.12.0")  // Java mocks
+    testImplementation("io.mockk:mockk:1.14.5")            // Kotlin mocks
+    testImplementation("org.mockito:mockito-core:5.20.0")  // Java mocks
 }
 
 tasks.test {
